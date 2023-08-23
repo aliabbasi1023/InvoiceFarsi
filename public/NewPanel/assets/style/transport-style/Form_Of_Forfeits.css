@@ -1,0 +1,31 @@
+#information_of_driver{
+    margin: 40px 0 100px 0;
+}
+#information_of_driver td{
+    font-family: estedad;
+}
+#information_of_driver th{
+    font-family: vaziri;
+}
+#information_of_driver tr{
+    text-align: center;
+}
+#formbox2{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+body #bdr {
+    color: rgb(134, 133, 138);
+    position: relative;
+}
+#formbox2 #submit-2 button{
+    width: 150px;
+@font-face {
+    font-family: estedad;
+    src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../font/vazir-font-v27.2.2-Fontjo.com/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2);
+}/*# sourceMappingURL=cars-list.css.map */

@@ -1,0 +1,53 @@
+#shipping_table thead > * {
+    text-align: center;
+    font-family: estedad;
+    color: rgb(61, 61, 61);
+}
+#shipping_table tbody tr {
+    font-family: estedad;
+    transition: 0.1s;
+    height: 55px;
+    /*background-color: forestgreen;*/
+}
+#shipping_table tbody tr:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+#shipping_table td {
+    text-align: center;
+}
+#shipping_table tr {
+    height: 55px;
+}
+#shipping_table > * {
+    vertical-align: middle;
+}
+
+#shipping_table .icon_box a:nth-of-type(1){
+    color: black;
+
+}
+#shipping_table .icon_box a:nth-of-type(1):hover {
+    color: deepskyblue;
+}
+
+#sub-4 {
+    height: 42px;
+}
+
+.color-s {
+    color: rgb(61, 61, 61);
+    font-family: vaziri;
+}
+
+.color-k {
+    font-family: estedad;
+}
+
+@font-face {
+    font-family: estedad;
+    src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../font/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
+}/*# sourceMappingURL=transportation.css.map */

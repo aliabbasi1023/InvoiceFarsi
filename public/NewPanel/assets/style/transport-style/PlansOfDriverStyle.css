@@ -1,0 +1,122 @@
+table thead > * {
+  text-align: center;
+  font-family: estedad;
+  color: rgb(61, 61, 61);
+}
+table tbody tr {
+  transition: 0.1s;
+}
+table tbody tr > td {
+  text-align: center;
+}
+table tbody tr:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+table tr > * {
+  vertical-align: middle;
+}
+table tr > * {
+  text-align: center !important;
+}
+
+.table-style {
+  width: 1400px;
+  height: 500px;
+}
+
+#sub {
+  width: 150px;
+}
+
+.color-s {
+  color: rgb(61, 61, 61);
+  font-family: vaziri;
+}
+
+.color-v {
+  font-family: estedad;
+}
+
+#bdr-table {
+  height: 50px;
+  color: rgb(22, 22, 22);
+  position: relative;
+}
+#bdr-table::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(130, 130, 133, 0.377);
+  position: absolute;
+  display: flex;
+  bottom: -10px;
+  left: 0;
+}
+
+#header-t {
+  position: relative;
+}
+#header-t::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(132, 132, 133, 0.377);
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  left: 0;
+}
+
+.select-2 {
+  border: 2px solid rgb(122, 121, 119);
+  color: rgb(132, 132, 133);
+}
+
+.slc1 {
+  height: 35px;
+}
+
+.btn-sabt {
+  width: 120px;
+  height: 35px;
+}
+
+#btn-border-4 {
+  border-bottom: 1px solid rgb(224, 223, 223);
+}
+#input_1 {
+  height: 41px;
+  font-size: 15px !important;
+}
+#sbt_1{
+  height: 41px !important;
+}
+#input_12 {
+  height: 41px;
+  font-size: 15px !important;
+}
+#sbt_123 {
+  height: 41px !important;
+}
+#sbt_1234 {
+  height: 41px !important;
+}
+#bg1{
+  background-color:white ;
+  border-radius: 8px !important;
+  /*width: 880px !important;*/
+  /*height: 600px !important;*/
+}
+#bg2{
+  background-color:white;
+  border-radius: 8px;
+}
+#bg3{
+  background-color:white;
+  border-radius: 8px;
+}
+#bg4{
+  background-color:white;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=style33.css.map */

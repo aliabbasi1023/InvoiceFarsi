@@ -1,0 +1,63 @@
+#table_forfeit thead > * {
+    text-align: center;
+    font-family: estedad;
+    color: rgb(61, 61, 61);
+}
+#table_forfeit tbody tr {
+    height: 55px;
+    transition: 0.5s;
+}
+#table_forfeit tbody tr > td {
+    text-align: center;
+}
+#table_forfeit tbody tr:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+#table_forfeit tbody td {
+    font-family: estedad;
+}
+#table_forfeit tbody .icon_box i{
+    cursor: pointer;
+}
+#table_forfeit tbody .icon_box i:nth-of-type(1):hover{
+    color: deepskyblue;
+}
+#table_forfeit tbody .icon_box i:nth-of-type(2):hover{
+      color: red;
+  }
+#table_forfeit tr > * {
+    vertical-align: middle;
+}
+
+.table-style {
+    width: 1400px;
+    height: 500px;
+}
+
+#sub {
+    width: 150px;
+}
+
+.color-ss {
+    color: rgb(61, 61, 61);
+    font-family: vaziri;
+}
+
+.color-vv {
+    font-family: estedad;
+}
+
+.select-2 {
+    border: 2px solid rgb(122, 121, 119);
+    color: rgb(132, 132, 133);
+}
+
+.slc1 {
+    height: 35px;
+}
+
+.btn-sabt {
+    width: 120px;
+    height: 35px;
+}
+

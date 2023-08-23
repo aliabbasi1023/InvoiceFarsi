@@ -1,0 +1,80 @@
+table thead > * {
+    text-align: center;
+    font-family: estedad;
+    color: rgb(61, 61, 61);
+}
+#table-m tbody tr {
+    height: 55px;
+    font-family: estedad;
+    transition: 0.1s;
+}
+#table-m tbody tr:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+#table-m td {
+    text-align: center;
+}
+#table-m tr {
+    height: 60px;
+}
+#table-m > * {
+    vertical-align: middle;
+}
+table .icon_box i:nth-of-type(1):hover {
+    color: aqua;
+}
+table .icon_box i:nth-of-type(2):hover {
+    color: rgb(255, 187, 0);
+}
+table .icon_box i:nth-of-type(3):hover {
+    color: rgb(243, 26, 44);
+}
+table .icon_box i:nth-of-type(4):hover {
+    color: rgb(17, 230, 148);
+}
+table .icon_box i:nth-of-type(5):hover {
+    color: rgb(66, 26, 243);
+}
+
+#sub-4 {
+    height: 37px;
+}
+
+.color-s {
+    color: rgb(61, 61, 61);
+    font-family: vaziri;
+}
+
+.color-k {
+    font-family: estedad;
+}
+
+
+
+
+
+#slct2{
+    z-index: 999;
+    position: absolute;
+}
+#modal_m{
+    border: 2px solid #656363;
+    background-color: #ffffff;
+    width: 500px !important;
+    height: auto !important;
+    z-index: 999;
+    border-radius: 7px;
+    position: fixed;
+}
+
+
+
+
+@font-face {
+    font-family: estedad;
+    src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../font/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
+}/*# sourceMappingURL=list_order.css.map */

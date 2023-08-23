@@ -1,0 +1,86 @@
+table thead > * {
+  text-align: start;
+  font-family: estedad;
+  color: rgb(61, 61, 61);
+}
+table tbody tr {
+  height: 50px;
+  transition: 0.2s;
+}
+table tbody tr > td {
+  text-align: start;
+  font-family: estedad;
+}
+table tbody tr:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+table tr > * {
+  background-color: black;
+  vertical-align: middle;
+}
+
+.table-style {
+  width: 1400px;
+  height: 500px;
+}
+
+#sub {
+  width: 150px;
+}
+
+.color-s {
+  color: rgb(61, 61, 61);
+  font-family: vaziri;
+}
+
+.color-v {
+  font-family: estedad;
+}
+
+#bdr-table {
+  height: 50px;
+  color: rgb(22, 22, 22);
+  position: relative;
+}
+#bdr-table::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(130, 130, 133, 0.377);
+  position: absolute;
+  display: flex;
+  bottom: -10px;
+  left: 0;
+}
+
+#header-t {
+  position: relative;
+}
+#header-t::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(132, 132, 133, 0.377);
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  left: 0;
+}
+
+.select-2 {
+  border: 2px solid rgb(122, 121, 119);
+  color: rgb(132, 132, 133);
+}
+
+.slc1 {
+  height: 35px;
+}
+
+.btn-sabt {
+  width: 120px;
+  height: 35px;
+}
+
+#btn-border-4 {
+  border-bottom: 1px solid rgb(224, 223, 223);
+}/*# sourceMappingURL=list-R-khodro.css.map */

@@ -1,0 +1,53 @@
+#table_management thead > * {
+    text-align: center;
+    font-family: estedad;
+    color: rgb(61, 61, 61);
+}
+#table_management tbody tr {
+    font-family: estedad;
+    height: 55px;
+    transition: 0.5s;
+}
+#table_management tbody tr:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+#table_management td {
+    text-align: center;
+}
+#table_management tr {
+    height: 60px;
+}
+#table_management > * {
+    vertical-align: middle;
+}
+#table_management .icon_box i:nth-of-type(1):hover {
+    color: #ff6a00;
+}
+/*#table-m-2 .icon_box i:nth-of-type(2):hover {*/
+/*    color: aqua;*/
+/*}*/
+#table_management .icon_box i:nth-of-type(2):hover {
+    color: rgb(255, 29, 55);
+}
+
+#sub-4 {
+    height: 10px;
+}
+
+.color-s {
+    color: rgb(61, 61, 61);
+    font-family: vaziri;
+}
+
+.color-k {
+    font-family: estedad;
+}
+
+@font-face {
+    font-family: estedad;
+    src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../font/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
+}/*# sourceMappingURL=basic_information.css.map */

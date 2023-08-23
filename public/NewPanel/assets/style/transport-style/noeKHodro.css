@@ -1,0 +1,45 @@
+#table-cars-type thead > * {
+  text-align: center;
+  font-family: vaziri;
+  color: rgb(61, 61, 61);
+}
+#table-cars-type tbody tr {
+  height: 55px;
+  transition: 0.2s;
+}
+#table-cars-type tbody tr > td {
+  text-align: center;
+  font-family: estedad;
+}
+#table-cars-type  tbody tr:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+#table-cars-type  tr > * {
+  vertical-align: middle;
+}
+
+.table-style {
+  width: 1400px;
+  height: 500px;
+}
+
+#sub {
+  width: 150px;
+}
+.select-2 {
+  border: 2px solid rgb(122, 121, 119);
+  color: rgb(132, 132, 133);
+}
+
+.slc1b {
+  height: 35px;
+}
+
+.btn-sabt {
+  width: 120px;
+  height: 35px;
+}
+
+#table-cars-type .icon_box i:nth-of-type(1):hover {
+  color: red;
+}/*# sourceMappingURL=noeKHodro.css.map */

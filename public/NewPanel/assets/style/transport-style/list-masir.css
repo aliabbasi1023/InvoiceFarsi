@@ -1,0 +1,54 @@
+#table-route thead > * {
+  text-align: center;
+  font-family:vaziri !important;
+  color: rgb(61, 61, 61);
+}
+#table-route tbody tr {
+  font-family: estedad !important;
+  transition: 0.1s;
+}
+#table-route tbody tr:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+#table-route td {
+  text-align: center;
+}
+#table-route tr {
+  height: 60px;
+}
+#table-route > * {
+  vertical-align: middle;
+}
+#table-route .icon_box i{
+  cursor: pointer;
+}
+#table-route .icon_box i:nth-of-type(1):hover{
+  color: deepskyblue;
+}
+#table-route .icon_box i:nth-of-type(2):hover{
+  color: #71bd00;
+}
+#table-route .icon_box i:nth-of-type(3):hover{
+  color: red;
+}
+#sub-4 {
+  height: 37px;
+}
+
+.color-s {
+  color: rgb(61, 61, 61);
+  font-family: vaziri;
+}
+
+.color-k {
+  font-family: estedad;
+}
+
+@font-face {
+  font-family: estedad;
+  src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+  font-family: vaziri;
+  src: url(../font/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
+}/*# sourceMappingURL=list-masir.css.map */

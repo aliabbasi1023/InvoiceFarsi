@@ -1,0 +1,31 @@
+
+.bdr-form3 .form-select option {
+  color: rgb(87, 85, 85);
+}
+.form1 {
+  color: rgb(134, 133, 138);
+  position: relative;
+  font-family: estedad !important;
+  margin: 7px;
+}
+.bdr-form3 {
+  border-radius: 10px;
+  margin: 150px auto;
+  background-color: white;
+}
+.submit {
+  width: 150px;
+}
+#country option{
+  background-color: red !important;
+  height: 50px !important;
+  justify-content: center !important;
+}
+@font-face {
+  font-family: estedad;
+  src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+  font-family: vaziri;
+  src: url(../font/vazir-font-v27.2.2-Fontjo.com/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2);
+}/*# sourceMappingURL=SabtMasir.css.map */

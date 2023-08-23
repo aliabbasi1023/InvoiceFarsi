@@ -1,0 +1,35 @@
+@font-face {
+    font-family: estedad;
+    src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../font/vazir-font-v27.2.2-Fontjo.com/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2);
+}
+
+table thead > * {
+    text-align: center;
+    font-family: estedad;
+    color: rgb(61, 61, 61);
+}
+#table-m-2 tbody tr {
+    height: 60px;
+    transition: 0.1s;
+}
+table tbody tr:hover {
+    background-color: rgba(219, 219, 219, 0.5);
+}
+table td {
+    text-align: center;
+}
+table tr {
+    height: 10px;
+}
+table tr > * {
+    background-color: black;
+    vertical-align: middle;
+}
+
+.slc12 {
+    height: 40px;
+}

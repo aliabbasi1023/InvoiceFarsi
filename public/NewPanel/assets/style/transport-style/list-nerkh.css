@@ -1,0 +1,66 @@
+#table-nerkh thead > * {
+  text-align: center;
+  font-family: estedad;
+  color: rgb(61, 61, 61);
+}
+#table-nerkh  tbody tr {
+  height: 55px;
+  transition: 0.2s;
+}
+#table-nerkh  tbody tr > td {
+  font-family: estedad;
+  text-align: center;
+}
+#table-nerkh  tbody tr:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+#table-nerkh  tr > * {
+  vertical-align: middle;
+}
+#table-nerkh  .box_inp > input {
+  border: none;
+  outline: none;
+  width: 200px !important;
+}
+
+.table-style3 {
+  width: 1400px;
+  height: 500px;
+}
+
+#sub {
+  width: 150px;
+}
+
+.color-sn {
+  color: rgb(61, 61, 61);
+  font-family: vaziri;
+}
+
+.color-vb {
+  font-family: estedad;
+}
+
+.select-2 {
+  border: 2px solid rgb(122, 121, 119);
+  color: rgb(132, 132, 133);
+}
+
+.slc1b {
+  height: 35px;
+}
+
+.btn-sabt {
+  width: 120px;
+  height: 35px;
+}
+
+#table-nerkh .icon_box i:nth-of-type(2):hover {
+  color: deepskyblue;
+}
+#table-nerkh .icon_box i:nth-of-type(3):hover {
+  color: red;
+}/*# sourceMappingURL=list-nerkh.css.map */
+#table-nerkh .icon_box i:nth-of-type(1):hover {
+  color: #00ad00;
+}
