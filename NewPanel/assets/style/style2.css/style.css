@@ -32,7 +32,7 @@ body li {
 }
 body .line_box {
   position: relative;
-  height: 45px;
+  height: 43px;
 }
 body .line_box::after {
   content: "";
