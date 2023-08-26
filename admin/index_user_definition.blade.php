@@ -28,56 +28,45 @@
     
     <div id="collapseTwo" class="accordion-collapse collapse col-12" aria-labelledby="headingTwo"
     data-bs-parent="#accordionExample">
+
     <div class="accordion-body col-12">
+
       <h6 class=" color-s py-3">جستجو</h6>
       <div class="row">
+     <div class="col-12">
 
-
-
-      <div class="col-6 row px-2" id="data_picker">
+     <div class="col-6 row px-2" id="data_picker">
                           <label for="inputEmail4" class="form-label text-secondary px-1">از تاریخ</label>
                           <input type="text" id="pcal1" class="pdate col-11 ">
                         </div>
+
+
+
                         <div class="col-6 row" id="data_picker">
                           <label for="inputEmail4" class="form-label text-secondary px-1">تا تاریخ</label>
                           <input type="text" id="pcal1" class="pdate col-11">
                         </div>
 
-        <div class="col-2">
-          <button type="submit" class="btn btn-secondary color-s text-white slc1 col-12" id="sub">ثبت</button>
-        </div>
+
+
+                        <div class="col-2">
+                          <button type="submit" class="btn btn-secondary color-s text-white slc1 col-12" id="sub">ثبت</button>
+                        </div>
+</div>
+
+
+       
       </div>
     </div>
   </div>
 
-  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-    data-bs-parent="#accordionExample">
-    <div class="accordion-body">
-
-      <h6 class="color-s py-3">فرم تعریف دسته بندی جدید</h6>
-      <div class=" row">
-        <div class="col-5 d-flex justify-content-center">
-          <input type="text" class="col-6 form-control color-v slc1 pe-2" placeholder="نام دسته بندی">
-        </div>
-        <div class="col-5 d-flex justify-content-center px-1">
-          <select class="form-select text-secondary color-v slc1 pe-5" aria-label="Default select example">
-            <option selected disabled>نام و نام خانوادگی</option>
-            <option value="1">شماره تماس </option>
-            <option value="2">نقش کاربری</option>
-          </select>
-        </div>
-        <div class="col-2">
-          <button type="submit" class="btn btn-secondary text-white color-s slc1 col-12" id="sub">ثبت</button>
-        </div>
-      </div>
+ 
 
     </div>
   </div>
 
 
-  <div id="collapseOne" class="d-flex justify-content-between accordion-collapse collapse f-vaziri"
-    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-    <div class="accordion-body py-3">
+
 
     </div>
   </div>
