@@ -99,14 +99,14 @@
         <div class="accordion-item col-12 my-2">
                             <span class="accordion-header col-12">
                               <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse"
-                                      data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                      aria-controls="flush-collapseTwo" data-click="off">
+                                      data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                      aria-controls="flush-collapseOne" data-click="off">
                                 <a href="" class="col-12 d-flex justify-content-start align-items-center pe-2">
                                 مدیریت فاکتور ها
                                 </a>
                               </button>
                             </span>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner">
                         <div class="accordion-body p-0">
                             <!-- sub -->
                             <div class="col-12">
@@ -120,7 +120,7 @@
                                                 data-click-lvl1="off">
                                           <a href="{{route('factorsList')}}"
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
-                                             فهرست فاکتور ها
+                                              فهرست فاکتور ها
                                           </a>
                                         </button>
                                       </span>

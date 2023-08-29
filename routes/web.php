@@ -24,22 +24,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::group(['prefix' => 'Panel','namespace'=>'Panel'],function (){
-
-
-Route::get("/factors/List", [PanelController::class, "factorsList"])->name("factorsList");
-Route::get("/Factors/Details", [PanelController::class, "FactorsDetails"])->name("FactorsDetails");
-Route::get("/Factors/Comment", [PanelController::class, "FactorsComment"])->name("FactorsComment");
-
-
-
+    Route::get("/factors/List", [PanelController::class, "factorsList"])->name("factorsList");
+    Route::get("/Factors/Details", [PanelController::class, "FactorsDetails"])->name("FactorsDetails");
+    Route::get("/Factors/Comment", [PanelController::class, "FactorsComment"])->name("FactorsComment");
 })
 
 ;Route::group(['prefix' => 'Admin','namespace'=>'Admin'],function (){
-
-
-Route::get("/Users/List", [AdminController::class, "UsersList"])->name("UsersList");
-Route::get("/Users/Add/Form", [AdminController::class, "UsersAddForm"])->name("UsersAddForm");
-
-
-
+    Route::get("/Users/List", [AdminController::class, "UsersList"])->name("UsersList");
+    Route::get("/Users/Add/Form", [AdminController::class, "UsersAddForm"])->name("UsersAddForm");
 });
