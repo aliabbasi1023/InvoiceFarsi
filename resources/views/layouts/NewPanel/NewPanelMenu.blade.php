@@ -9,17 +9,14 @@
                 </figcaption>
             </div>
         </div>
-
         <div class="line_box col-12">
             <span class="line_text">جستجو</span>
         </div>
-
         <div class="col-12 d-flex my-2 p-0 m-0" id="search_box">
             <div class="col-12 row justify-content-end position-relative">
                 <input type="search" name="" id="inp_search" class="col-11 px-3" placeholder="جستجو کنید">
             </div>
         </div>
-
         <div class="line_box col-12 mb-1">
             <span class="line_text">فهرست</span>
         </div>
@@ -45,7 +42,6 @@
                             <!-- sub -->
                             <div class="col-12">
                                 <div class="accordion col-12" id="menu_box_inner_sub2">
-
                                     <!-- item start-->
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
@@ -62,7 +58,6 @@
                                              data-bs-parent="#menu_box_inner_sub1">
                                         </div>
                                     </div>
-
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
                                         <button class="collapsed col-12 d-flex p-0" aria-expanded="false"
@@ -70,9 +65,7 @@
                                           <a href=""
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
                                             فرم تعریف کاربران
-
                                           </a>
-
                                         </button>
                                       </span>
                                         <div id="flush-collapseTwo4" class="accordion-collapse collapse"
@@ -88,7 +81,6 @@
                                         </div>
                                     </div>
                                     <!-- item end -->
-
                                 </div>
                             </div>
                             <!-- sub -->
@@ -111,7 +103,6 @@
                             <!-- sub -->
                             <div class="col-12">
                                 <div class="accordion col-12" id="menu_box_inner_sub2">
-
                                     <!-- item start-->
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
@@ -128,7 +119,6 @@
                                              data-bs-parent="#menu_box_inner_sub1">
                                         </div>
                                     </div>
-
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
                                         <button class="collapsed col-12 d-flex p-0" aria-expanded="false"
@@ -136,9 +126,7 @@
                                           <a href=""
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
                                             زیر منوی فروش سطح یک
-
                                           </a>
-
                                         </button>
                                       </span>
                                         <div id="flush-collapseTwo4" class="accordion-collapse collapse"
@@ -154,20 +142,12 @@
                                         </div>
                                     </div>
                                     <!-- item end -->
-
                                 </div>
                             </div>
                             <!-- sub -->
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
