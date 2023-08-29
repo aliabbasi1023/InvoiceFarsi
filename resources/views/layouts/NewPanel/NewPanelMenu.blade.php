@@ -24,8 +24,8 @@
             <!-- ********* -->
             <!-- note: id parent bayad ba data-bs-parent item ha yeki bashe  -->
             <div class="accordion accordion-flush col-12 ps-1" id="menu_box_inner">
-                
-            
+
+
             <!-- item asli -->
                 <div class="accordion-item col-12 my-2">
                             <span class="accordion-header col-12">
@@ -41,14 +41,19 @@
                         <div class="accordion-body p-0">
                             <!-- sub -->
                             <div class="col-12">
+<<<<<<< HEAD
                                 <div class="accordion col-12" id="menu_box_inner_sub2">
+=======
+                                <div class="accordion col-12" id="menu_box_inner_sub1">
+
+>>>>>>> e55bef1a11ebe21dcd3fe98b313b3dd64d40b2d1
                                     <!-- item start-->
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
                                         <button class="collapsed col-12 d-flex p-0" data-bs-target="#flush-collapseOne11"
                                                 aria-expanded="false" aria-controls="flush-collapseOne11"
                                                 data-click-lvl1="off">
-                                          <a href=""
+                                          <a href="{{route('UsersList')}}"
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
                                              فهرست کاربران
                                           </a>
@@ -62,14 +67,14 @@
                                       <span class="accordion-header col-12">
                                         <button class="collapsed col-12 d-flex p-0" aria-expanded="false"
                                                 aria-controls="flush-collapseTwo4" data-click-lvl1="off">
-                                          <a href=""
+                                          <a href="{{route('UsersAddForm')}}"
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
                                             فرم تعریف کاربران
                                           </a>
                                         </button>
                                       </span>
                                         <div id="flush-collapseTwo4" class="accordion-collapse collapse"
-                                             data-bs-parent="#menu_box_inner_sub2">
+                                             data-bs-parent="#menu_box_inner_sub1">
                                             <!-- <div class="accordion-body">
                                               <ul class="col-12">
                                                 <li class="col-12 my-2 pe-4">زیر منو فروش دو</li>
@@ -91,14 +96,14 @@
         <div class="accordion-item col-12 my-2">
                             <span class="accordion-header col-12">
                               <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse"
-                                      data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                      aria-controls="flush-collapseTwo" data-click="off">
+                                      data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                      aria-controls="flush-collapseOne" data-click="off">
                                 <a href="" class="col-12 d-flex justify-content-start align-items-center pe-2">
                                 مدیریت فاکتور ها
                                 </a>
                               </button>
                             </span>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner">
                         <div class="accordion-body p-0">
                             <!-- sub -->
                             <div class="col-12">
@@ -111,21 +116,32 @@
                                                 data-click-lvl1="off">
                                           <a href="{{route('factorsList')}}"
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
-                                             فهرست فاکتور ها
+                                              فهرست فاکتور ها
                                           </a>
                                         </button>
                                       </span>
                                         <div id="flush-collapseOne11" class="accordion-collapse collapse"
-                                             data-bs-parent="#menu_box_inner_sub1">
+                                             data-bs-parent="#menu_box_inner_sub2">
                                         </div>
                                     </div>
+<<<<<<< HEAD
+=======
+
+                                    <!-- item start-->
+
+>>>>>>> e55bef1a11ebe21dcd3fe98b313b3dd64d40b2d1
                                     <div class="accordion-item my-2 col-12">
                                       <span class="accordion-header col-12">
                                         <button class="collapsed col-12 d-flex p-0" aria-expanded="false"
                                                 aria-controls="flush-collapseTwo4" data-click-lvl1="off">
-                                          <a href=""
+                                          <a href="{{route('FactorsDetails')}}"
                                              class="col-12 d-flex justify-content-start align-items-center pe-3">
+<<<<<<< HEAD
                                             زیر منوی فروش سطح یک
+=======
+                                            جزئیات فاکتور
+
+>>>>>>> e55bef1a11ebe21dcd3fe98b313b3dd64d40b2d1
                                           </a>
                                         </button>
                                       </span>
@@ -142,6 +158,29 @@
                                         </div>
                                     </div>
                                     <!-- item end -->
+<<<<<<< HEAD
+=======
+
+
+                                    <!-- item start-->
+
+                                    <div class="accordion-item my-2 col-12">
+                                      <span class="accordion-header col-12">
+                                        <button class="collapsed col-12 d-flex p-0" data-bs-target="#flush-collapseOne33"
+                                                aria-expanded="false" aria-controls="flush-collapseOne33"
+                                                data-click-lvl1="off">
+                                          <a href="{{route('FactorsComment')}}"
+                                             class="col-12 d-flex justify-content-start align-items-center pe-3">
+                                             کامنت گذاری فاکتور ها
+                                          </a>
+                                        </button>
+                                      </span>
+                                        <div id="flush-collapseOne33" class="accordion-collapse collapse"
+                                             data-bs-parent="#menu_box_inner_sub2">
+                                        </div>
+                                    </div>
+
+>>>>>>> e55bef1a11ebe21dcd3fe98b313b3dd64d40b2d1
                                 </div>
                             </div>
                             <!-- sub -->

@@ -103,7 +103,7 @@ body{
 
     .main{
         position: relative;
-// ***************************************toggle menu  ******************************     
+// ***************************************toggle menu  ******************************
         #toggle_menu{
             background-color: rgb(244,245,250);
             top: 0;
@@ -125,17 +125,17 @@ body{
                 #search_box_toggle{
                     height: 35px;
                     background-color: aliceblue;
-    
+
                     #inp_search_toggle{
                         border: 2px solid $red_farsi;
                         border-radius: 10px;
                         outline: none;
                     }
                 }
-                #menu_box_toggle::-webkit-scrollbar { 
+                #menu_box_toggle::-webkit-scrollbar {
                     display: none;  /* Safari and Chrome */
                 }
-                #menu_box_toggle{ 
+                #menu_box_toggle{
                     overflow-y: scroll;
                     >#menu_box_toggle_inner{
                         >.accordion-item{
@@ -184,7 +184,7 @@ body{
                                                     min-height: 35px;
                                                     font-family: estedad;
                                                     border-top-left-radius: 30px;
-                                                    border-bottom-left-radius: 30px; 
+                                                    border-bottom-left-radius: 30px;
                                                     background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(255,255,255,1) 100%);
                                                     color: rgb(119, 119, 119);
                                                     cursor: pointer;
@@ -221,7 +221,7 @@ body{
                 }
             }
 
-            #menu_box::-webkit-scrollbar { 
+            #menu_box::-webkit-scrollbar {
                 display: none;  /* Safari and Chrome */
             }
 
@@ -274,7 +274,7 @@ body{
                                                 min-height: 37px;
                                                 font-family: estedad;
                                                 border-top-left-radius: 30px;
-                                                border-bottom-left-radius: 30px; 
+                                                border-bottom-left-radius: 30px;
                                                 background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(255,255,255,1) 100%);
                                                 color: rgb(119, 119, 119);
                                                 cursor: pointer;
@@ -371,7 +371,7 @@ body{
                     }
                 }
             }
-            #main_content_admin_panel::-webkit-scrollbar{ 
+            #main_content_admin_panel::-webkit-scrollbar{
                 display: none;  /* Safari and Chrome */
             }
             #main_content_admin_panel{
