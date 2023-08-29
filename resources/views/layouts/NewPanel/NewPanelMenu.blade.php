@@ -95,13 +95,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
         <!-- item asli -->
         <div class="accordion-item col-12 my-2">
                             <span class="accordion-header col-12">
