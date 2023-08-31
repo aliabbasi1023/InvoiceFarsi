@@ -32,15 +32,13 @@
             <div class="accordion accordion-flush col-12 ps-2" id="menu_box_toggle_inner">
                 <!-- item asli -->
                 <div class="accordion-item col-12 my-1">
-                            <span class="accordion-header col-12">
-                              <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse"
-                                      data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                      aria-controls="flush-collapseTwo" data-click="off">
-                                <a href="" class="col-12 d-flex justify-content-start align-items-center pe-2">
+                    <span class="accordion-header col-12">
+                        <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" data-click="off">
+                            <a href="" class="col-12 d-flex justify-content-start align-items-center pe-2">
                                 مدیریت سیستم
-                                </a>
-                              </button>
-                            </span>
+                            </a>
+                        </button>
+                    </span>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#menu_box_toggle_inner">
                         <div class="accordion-body p-0">
                             <!-- sub -->
@@ -49,18 +47,14 @@
 
                                     <!-- item start-->
                                     <div class="accordion-item my-2 col-12">
-                                      <span class="accordion-header col-12">
-                                        <button class="collapsed col-12 d-flex p-0" data-bs-target="#flush-collapseOne11"
-                                                aria-expanded="false" aria-controls="flush-collapseOne11"
-                                                data-click-lvl1="off">
-                                          <a href=""
-                                             class="col-12 d-flex justify-content-start align-items-center pe-3">
-                                              مدیریت کاربران
-                                          </a>
-                                        </button>
-                                      </span>
-                                        <div id="flush-collapseOne11" class="accordion-collapse collapse"
-                                             data-bs-parent="#menu_box_inner_sub1">
+                                        <span class="accordion-header col-12">
+                                            <button class="collapsed col-12 d-flex p-0" data-bs-target="#flush-collapseOne11" aria-expanded="false" aria-controls="flush-collapseOne11" data-click-lvl1="off">
+                                                <a href="" class="col-12 d-flex justify-content-start align-items-center pe-3">
+                                                    مدیریت کاربران
+                                                </a>
+                                            </button>
+                                        </span>
+                                        <div id="flush-collapseOne11" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner_sub1">
                                         </div>
                                     </div>
                                     <!-- item end -->
@@ -69,52 +63,49 @@
 
 
                                     <!-- item start-->
-                                    {{--                                    <div class="accordion-item my-2 col-12">--}}
-                                    {{--                                      <span class="accordion-header col-12">--}}
-                                    {{--                                        <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse"--}}
-                                    {{--                                                data-bs-target="#flush-collapsetwo2" aria-expanded="false"--}}
-                                    {{--                                                aria-controls="flush-collapsetwo2" data-click-lvl1="off">--}}
-                                    {{--                                          <a href=""--}}
-                                    {{--                                             class="col-12 d-flex justify-content-start align-items-center pe-3">--}}
-                                    {{--                                            زیر منوی فروش سطح یک--}}
+                                    {{-- <div class="accordion-item my-2 col-12">--}}
+                                    {{-- <span class="accordion-header col-12">--}}
+                                    {{-- <button class="collapsed col-12 d-flex p-0" type="button" data-bs-toggle="collapse"--}}
+                                    {{-- data-bs-target="#flush-collapsetwo2" aria-expanded="false"--}}
+                                    {{-- aria-controls="flush-collapsetwo2" data-click-lvl1="off">--}}
+                                    {{-- <a href=""--}}
+                                    {{-- class="col-12 d-flex justify-content-start align-items-center pe-3">--}}
+                                    {{-- زیر منوی فروش سطح یک--}}
 
-                                    {{--                                          </a>--}}
-                                    {{--                                        </button>--}}
-                                    {{--                                      </span>--}}
-                                    {{--                                        <div id="flush-collapsetwo2" class="accordion-collapse collapse"--}}
-                                    {{--                                             data-bs-parent="#menu_box_inner_sub2">--}}
-                                    {{--                                            <div class="accordion-body p-0">--}}
-                                    {{--                                                <ul class="col-12 p-0 m-0">--}}
-                                    {{--                                                    <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
-                                    {{--                                                            سطح دو </a></li>--}}
-                                    {{--                                                    <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
-                                    {{--                                                            سطح دو </a></li>--}}
-                                    {{--                                                    <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
-                                    {{--                                                            سطح دو </a></li>--}}
-                                    {{--                                                    <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
-                                    {{--                                                            سطح دو </a></li>--}}
-                                    {{--                                                </ul>--}}
-                                    {{--                                            </div>--}}
-                                    {{--                                        </div>--}}
-                                    {{--                                    </div>--}}
+                                    {{-- </a>--}}
+                                    {{-- </button>--}}
+                                    {{-- </span>--}}
+                                    {{-- <div id="flush-collapsetwo2" class="accordion-collapse collapse"--}}
+                                    {{-- data-bs-parent="#menu_box_inner_sub2">--}}
+                                    {{-- <div class="accordion-body p-0">--}}
+                                    {{-- <ul class="col-12 p-0 m-0">--}}
+                                    {{-- <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
+                                    {{-- سطح دو </a></li>--}}
+                                    {{-- <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
+                                    {{-- سطح دو </a></li>--}}
+                                    {{-- <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
+                                    {{-- سطح دو </a></li>--}}
+                                    {{-- <li class="col-12 my-2 "><a class=" col-12 pe-4" href=""> زیر منوی--}}
+                                    {{-- سطح دو </a></li>--}}
+                                    {{-- </ul>--}}
+                                    {{-- </div>--}}
+                                    {{-- </div>--}}
+                                    {{-- </div>--}}
                                     <!-- item end -->
                                     <!-- item start -->
                                     <!-- baraye inke tag a ajra she bayad type data-bs-toggle pak she -->
 
                                     <div class="accordion-item my-2 col-12">
-                                      <span class="accordion-header col-12">
-                                        <button class="collapsed col-12 d-flex p-0" aria-expanded="false"
-                                                aria-controls="flush-collapseTwo4" data-click-lvl1="off">
-                                          <a href=""
-                                             class="col-12 d-flex justify-content-start align-items-center pe-3">
-                                            زیر منوی فروش سطح یک
+                                        <span class="accordion-header col-12">
+                                            <button class="collapsed col-12 d-flex p-0" aria-expanded="false" aria-controls="flush-collapseTwo4" data-click-lvl1="off">
+                                                <a href="" class="col-12 d-flex justify-content-start align-items-center pe-3">
+                                                    زیر منوی فروش سطح یک
 
-                                          </a>
+                                                </a>
 
-                                        </button>
-                                      </span>
-                                        <div id="flush-collapseTwo4" class="accordion-collapse collapse"
-                                             data-bs-parent="#menu_box_inner_sub2">
+                                            </button>
+                                        </span>
+                                        <div id="flush-collapseTwo4" class="accordion-collapse collapse" data-bs-parent="#menu_box_inner_sub2">
                                             <!-- <div class="accordion-body">
                                               <ul class="col-12">
                                                 <li class="col-12 my-2 pe-4">زیر منو فروش دو</li>
