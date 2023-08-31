@@ -387,3 +387,299 @@ body{
 
     }
 }
+table{
+    thead{
+        >*{
+            text-align: center;
+            font-family: estedad;
+            color: rgb(61, 61, 61);  
+            
+        }
+    }
+    tbody{
+        tr{
+            height: 55px;    
+            font-family: estedad;
+            transition: 0.1s;
+            &:hover{
+                background-color: rgba(219, 219, 219, 0.5);
+            }
+        }
+    }
+    td{
+        text-align: center;
+        background-color: aqua;
+  
+    }
+        tr{
+            height: 60px;
+        }
+        >*{
+            // background-color: black;
+            vertical-align: middle;
+           
+        }
+        .icon_box {
+            i:nth-of-type(1){
+                &:hover{
+                    color: aqua;
+                }
+            }
+            i:nth-of-type(2){
+                &:hover{
+                    color: rgb(255, 187, 0);
+                }
+            }
+            i:nth-of-type(3){
+                &:hover{
+                    color: rgb(243, 26, 44);
+                }
+            }
+            i:nth-of-type(4){
+                &:hover{
+                    color: rgb(17, 230, 148);
+                }
+            }
+            i:nth-of-type(5){
+                &:hover{
+                    color: rgb(66, 26, 243);
+                }
+            }
+}
+}
+#sub-4{
+    height: 37px;
+}
+.color-s{
+    color: rgb(61, 61, 61);
+    font-family: vaziri;}
+    .color-k{
+        font-family:  estedad ;
+       }
+
+    //    ***************************chatbox*************************
+
+
+    #chatbox{
+        background: url(../img/img.png);
+        height: auto;
+        width: 1000px;
+        opacity: .70;
+        filter: alpha(opacity=30); /* For IE8 and earlier */
+        position: relative;
+        .shadow_1{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1;
+        }
+
+    }
+
+    #Textarea_1{
+        position: relative;
+     
+    }
+#icon_save{
+position: absolute;
+bottom: 60px;
+left: 0;
+right: 20px;
+font-size: 30px;
+
+}
+.a_1{
+    border-radius: 40px;
+}
+.a_2{
+    background-color: rgb(167, 149, 163);
+    min-height: 60px;
+    border-radius: 40px;
+}
+.a_3{
+    background-color: rgb(248, 242, 242);
+    min-height: 60px;
+    border-radius: 40px;
+}
+
+// #exampleFormControlTextarea1{
+//     border-radius: 35px;
+// }
+
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+#thead{
+   background: linear-gradient(90deg, rgba(244,245,250,1) 0%, rgba(189,20,21,1) 42%, rgba(163,12,12,1) 100%, rgba(222,8,8,1) 100%, rgba(179,16,16,1) 100%, rgba(215,122,122,1) 100%, rgba(130,7,7,1) 100%, rgba(209,209,209,1) 100%);
+    height: 55px;
+}
+#text_1{
+   font-family: Estedad;
+}
+
+#table-m-2{
+    
+        thead{
+            >*{
+                text-align: center;
+                font-family: estedad;
+                color: rgb(61, 61, 61);  
+                
+            }
+        }
+        tbody{
+            tr{
+                height: 55px;    
+                font-family: estedad;
+                transition: 0.1s;
+                &:hover{
+                    background-color: rgba(219, 219, 219, 0.5);
+                }
+            }
+        }
+        td{
+            text-align: center;
+      
+        }
+            tr{
+                height: 60px;
+            }
+            >*{
+                // background-color: black;
+                vertical-align: middle;
+               
+            }
+            .icon_box {
+                i:nth-of-type(1){
+                    &:hover{
+                        color: aqua;
+                    }
+                }
+                i:nth-of-type(2){
+                    &:hover{
+                        color: rgb(255, 187, 0);
+                    }
+                }
+                i:nth-of-type(3){
+                    &:hover{
+                        color: rgb(243, 26, 44);
+                    }
+                }
+                i:nth-of-type(4){
+                    &:hover{
+                        color: rgb(17, 230, 148);
+                    }
+                }
+                i:nth-of-type(5){
+                    &:hover{
+                        color: rgb(66, 26, 243);
+                    }
+                }
+    }
+    }
+#table-m-3{
+    
+    thead{
+        >*{
+            text-align: center;
+            font-family: estedad;
+            color: rgb(61, 61, 61);  
+            
+        }
+    }
+    tbody{
+        tr{
+            height: 55px;    
+            font-family: estedad;
+            transition: 0.1s;
+            &:hover{
+                background-color: rgba(219, 219, 219, 0.5);
+            }
+        }
+    }
+    td{
+        text-align: center;
+  
+    }
+        tr{
+            height: 60px;
+        }
+        >*{
+            // background-color: black;
+            vertical-align: middle;
+           
+        }
+        .icon_box {
+            i:nth-of-type(1){
+                &:hover{
+                    color: aqua;
+                }
+            }
+            i:nth-of-type(2){
+                &:hover{
+                    color: rgb(255, 187, 0);
+                }
+            }
+            i:nth-of-type(3){
+                &:hover{
+                    color: rgb(243, 26, 44);
+                }
+            }
+            i:nth-of-type(4){
+                &:hover{
+                    color: rgb(17, 230, 148);
+                }
+            }
+            i:nth-of-type(5){
+                &:hover{
+                    color: rgb(66, 26, 243);
+                }
+            }
+}
+}
+.header-3{
+    color:rgb(134, 133, 138);
+    position: relative;
+    font-family: estedad !important;
+    margin: 7px;
+    :hover{
+        color: rgb(235, 38, 38);
+    }
+
+}
+.bdr-form{
+    border-radius: 10px;
+    margin: 150px auto;
+   background-color: white;
+//    width: 1600px;
+   height: 600px;
+
+}
+#bdr{
+color:rgb(134, 133, 138);
+position: relative;
+
+}
+.submit-2{
+    width: 150px !important;
+    height: 45px !important;
+    :hover{
+        color: dodgerblue;
+    }
+   
+}
+.input_1{
+    height: 40px;
+    background-color: aqua;
+}

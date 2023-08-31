@@ -70,7 +70,7 @@
 </div>
 <!-- table******************************************* -->
 <div class="py-5">
-  <table class="table">
+  <table class="table" id="table-m-3">
     <thead>
       <tr>
         <th scope="col">شماره فاکتور</th>
@@ -92,10 +92,10 @@
         <td>0919 291 2686</td>
         <td>......</td>
         <td>......</td>
-        <td>
-          <i class="bi bi-chat-text"></i>
-          <i class="bi bi-bookmark-check-fill"></i>
-          <i class="px-2 h4 bi bi-person-plus-fill"></i>
+        <td class="icon_box">
+          <i class="h6 px-1 bi bi-chat-text"></i>
+          <i class="h6 px-1 bi bi-bookmark-check-fill"></i>
+          <i class="h6 px-1 bi bi-person-plus-fill"></i>
         </td>
       </tr>
       <tr>
@@ -106,10 +106,10 @@
         <td>09364916247</td>
         <td>......</td>
         <td>......</td>
-        <td>
-          <i class="bi bi-chat-text"></i>
-          <i class="bi bi-bookmark-check-fill"></i>
-          <i class="px-2 h4  bi bi-person-plus-fill"></i>
+        <td class="icon_box">
+          <i class="h6 px-1 bi bi-chat-text"></i>
+          <i class="h6 px-1 bi bi-bookmark-check-fill"></i>
+          <i class="h6 px-1  bi bi-person-plus-fill"></i>
         </td>
 
       </tr>
@@ -121,10 +121,10 @@
         <td>09392087671</td>
         <td>......</td>
         <td>......</td>
-        <td>
-          <i class="bi bi-chat-text"></i>
-          <i class="bi bi-bookmark-check-fill"></i>
-          <i class="px-2 h4 bi bi-person-plus-fill"></i>
+        <td class="icon_box">
+          <i class="h6 px-1 bi bi-chat-text"></i>
+          <i class="h6 px-1 bi bi-bookmark-check-fill"></i>
+          <i class="h6 px-1 bi bi-person-plus-fill"></i>
         </td>
       </tr>
     </tbody>

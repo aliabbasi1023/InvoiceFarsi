@@ -5,14 +5,14 @@
 <div class="col-12">
   <div class=" mb-5">
     <div class="col-12 pb-4 px-1 color-b" id="header-t">
-      <h4 class="text-secondary">جزئیات فاکتور</h4>
+      <h4 class="text-secondary border-bottom">جزئیات فاکتور</h4>
     </div>
   </div>
 
 
 
 
-  <div class="col-12 py-3">
+  <div class="col-12 py-3 border-bottom">
     <div class="col-12 d-flex justify-content-start align-items-center text-bark" id="bdr-table">
       <i class="h2 bi bi-search" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"></i>
       <i class="h2 px-1 bi bi-arrow-left-circle"></i>
@@ -58,7 +58,7 @@
 <!-- table -->
 
 <div class="py-3">
-  <table class="table" id="table-m-2">
+  <table class="table" id='table-m-2'>
     <thead>
       <tr>
         <th scope="col">ردیف</th>
@@ -83,7 +83,7 @@
           <i class="h6 px-1  bi bi-info-circle-fill"></i>
           <i class="h6 px-1  bi bi-trash3-fill"></i>
           <i class="h6 px-1 bi bi-files"></i>
-          <i class="bi bi-arrow-left-circle"></i>
+          <i class="h6 px-1bi bi-arrow-left-circle"></i>
         </td>
       </tr>
       <tr>
