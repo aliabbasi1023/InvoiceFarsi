@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,52 +24,50 @@
     <link rel="stylesheet" href="/NewPanel/assets/dataPicker/js-persian-cal.css">
     <script src="/NewPanel/assets/dataPicker/js-persian-cal.min.js"></script>
 
-	{{--    fav icon  --}}
-{{--    <link rel="SHORTCUT ICON" href="/NewPanel/assets/img/logo-farsi-1402.png" type="image/x-icon" />--}}
-{{--    <link rel="ICON" href="/NewPanel/assets/img/logo-farsi-1402.png" type="image/ico" />--}}
+    {{-- fav icon  --}}
+    {{-- <link rel="SHORTCUT ICON" href="/NewPanel/assets/img/logo-farsi-1402.png" type="image/x-icon" />--}}
+    {{-- <link rel="ICON" href="/NewPanel/assets/img/logo-farsi-1402.png" type="image/ico" />--}}
 
     <link rel="SHORTCUT ICON" href="/NewPanel/assets/img/logo.png" type="image/x-icon" />
     <link rel="ICON" href="/NewPanel/assets/img/logo.png" type="image/ico" />
 
 
 </head>
+
 <body onresize="_resize()">
 
 
-<!-- *********shadow -->
-<div class="shadow1 d-flex d-lg-none"></div>
-<!-- *********shadow -->
+    <!-- *********shadow -->
+    <div class="shadow1 d-flex d-lg-none"> </div>
+    <!-- *********shadow -->
 
 
-<div class="container-fluid">
-    <div class="row main justify-content-start ">
+    <div class="container-fluid">
+        <div class="row main justify-content-start ">
 
-        <!-- ****************main menu start****************** -->
-       @include('layouts.NewPanel.NewPanelMenu')
-        <!-- **************main menu end******************** -->
+            <!-- ****************main menu start****************** -->
+            @include('layouts.NewPanel.NewPanelMenu')
+            <!-- **************main menu end******************** -->
 
-        <!-- **************main section start*************** -->
+            < <!-- **************main section start*************** -->
 
-        <div class="col-12 col-lg-10 d-flex justify-content-start " id="main_sec">
+                <div class="col-12 col-lg-10 d-flex justify-content-start " id="main_sec">
 
-            <div class="inner_main_sec col-12 ps-1 pe-0">
-            @include('layouts.NewPanel.NewPanelHeader')
-                <!-- *********************main content start -->
-                <section id="main_content_admin_panel" class="col-12">
-                    @yield('content')
-                    <div class=" ">
-
+                    <div class="inner_main_sec col-12 ps-1 pe-0">
+                        @include('layouts.NewPanel.NewPanelHeader')
+                        <!-- *********************main content start -->
+                        <section id="main_content_admin_panel" class="col-12">
+                            @yield('content')
+                        </section>
+                        <!-- *********************main content end -->
                     </div>
-                </section>
-                <!-- *********************main content end -->
-            </div>
 
+                </div>
+                <!-- **************main section start*************** -->
+
+                <!-- ***************************************toggle menu**************************************************************** -->
+                @include('layouts.NewPanel.NewPanelSubMenu')
         </div>
-        <!-- **************main section start*************** -->
-
-        <!-- ***************************************toggle menu**************************************************************** -->
-        @include('layouts.NewPanel.NewPanelSubMenu')
-    </div>
     </div>
 
 </body>
