@@ -82,6 +82,9 @@
     let company = document.getElementById("company")
     let access_level = document.getElementById("access_level")
 
+    let array = {
+
+    }
   }
 </script>
 
