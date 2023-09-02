@@ -117,11 +117,11 @@
   <ul id="ppp" class="pagination p-0 m-0 d-flex align-items-center">
   </ul>
 </nav>
-{{--pagination end--}}
+<!-- {{--pagination end--}} -->
 
 
 
-
+<!-- 
 <script>
   axios({
       method: "get",
@@ -287,6 +287,6 @@
     let input = document.getElementById('id_user').value = id;
     document.getElementById('form').submit();
   }
-</script>
+</script> -->
 
 @endsection
