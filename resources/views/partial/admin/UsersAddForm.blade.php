@@ -11,40 +11,40 @@
 
     <div class="col-12 d-flex py-2">
       <div class=" col-6 p-1 ">
-        <input type=" text" class="form-control input_1" placeholder="نام و نام خانوادگی">
+        <input type=" text" class="form-control input_1 px-2" placeholder="نام و نام خانوادگی">
       </div>
 
       <div class="col-6 p-1">
-        <input type="text" class="form-control input_1" placeholder="شماره تماس">
+        <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس">
       </div>
     </div>
 
     <div class="col-12 d-flex py-2" id="bdr">
 
       <div class="col-6 p-1 ">
-        <input type="text" class="form-control input_1" placeholder="نام کاربری">
+        <input type="text" class="form-control input_1 px-2" placeholder="نام کاربری">
       </div>
 
       <div class="col-6 p-1">
-        <input type="text" class="form-control input_1" placeholder="پسورد">
+        <input type="text" class="form-control input_1 px-2" placeholder="پسورد">
       </div>
 
     </div>
     <div class="col-12 d-flex py-2" id="bdr">
 
       <div class="col-6 p-1 ">
-        <input type="text" class="form-control input_1" placeholder="تکرار پسورد">
+        <input type="text" class="form-control input_1 px-2" placeholder="تکرار پسورد">
       </div>
 
       <div class="col-6 p-1">
-        <input type="text" class="form-control input_1" placeholder="شرکت">
+        <input type="text" class="form-control input_1 px-2" placeholder="شرکت">
       </div>
 
     </div>
 
     <div class="col-12 d-flex py-2" id="sub">
       <div class="col-6 p-1">
-        <select class="form-select text-secondary input_1" aria-label="Default select example">
+        <select class="form-select text-secondary input_1 px-4" aria-label="Default select example">
           <option selected disabled>سطح دسترسی</option>
           <option value="1">.....</option>
           <option value="2">....</option>
