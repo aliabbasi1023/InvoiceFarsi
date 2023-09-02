@@ -1,4 +1,4 @@
-@extends('layout.NewPanel.NewPanel')
+@extends('layouts.NewPanel.NewPanel')
 @section('content')
 
 
@@ -116,10 +116,10 @@
   </table>
 </div>
 <!-- {{--pagination start--}} -->
-<nav id="pg1" aria-label="Page navigation example" class="d-flex justify-content-center col-12 p-0 m-0 my-5">
+<!-- <nav id="pg1" aria-label="Page navigation example" class="d-flex justify-content-center col-12 p-0 m-0 my-5">
   <ul id="ppp" class="pagination p-0 m-0 d-flex align-items-center">
   </ul>
-</nav>
+</nav> -->
 <!-- {{--pagination end--}} -->
 
 
