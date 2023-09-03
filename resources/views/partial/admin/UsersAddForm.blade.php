@@ -42,7 +42,7 @@
 
     </div>
 
-    <div class="col-12 d-flex py-2" id="sub">
+    <div class="col-12 d-flex py-2">
       <div class="col-6 p-1">
         <select class="form-select text-secondary input_1 px-4" aria-label="Default select example">
           <option selected disabled>سطح دسترسی</option>

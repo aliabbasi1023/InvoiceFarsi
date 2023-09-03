@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(244, 245, 250) !important;
+  direction: rtl;
+  font-family: vaziri !important;
+}
+body * {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+@font-face {
+  font-family: estedad;
+  src: url(../font/Estedad-v5.0-Fontjo.com/Estedad[wght\,kshd].woff2);
+}
+@font-face {
+  font-family: vaziri;
+  src: url(../font/vazir-font-v27.2.2-Fontjo.com/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2);
+}
+body #log_in {
+  border: 2px solid rgb(214, 5, 12);
+  margin: 100px auto !important;
+  box-shadow: 20px 20px 10px 0px rgba(58, 53, 65, 0.1);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+  body #log_in {
+    margin: 70px auto !important;
+  }
+}
+body #log_in a {
+  text-decoration: none;
+}
+body #log_in #welcome_box h3 {
+  font-size: 25px;
+  font-family: estedad;
+  color: rgba(58, 53, 65, 0.87);
+}
+@media screen and (max-width: 992px) {
+  body #log_in #welcome_box h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body #log_in #welcome_box h3 {
+    font-size: 20px;
+  }
+}
+body #log_in #input_box input {
+  border-radius: 6px;
+  border: 1px solid rgb(194, 193, 193);
+  outline: none;
+  height: 45px;
+  font-size: 15px;
+}
+body #log_in #input_box div:nth-of-type(2) #parent_eye {
+  position: relative;
+}
+body #log_in #input_box div:nth-of-type(2) #parent_eye #show_pass {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #log_in #input_box div:nth-of-type(2) #parent_eye #show_pass i {
+  font-size: 20px;
+}
+body #log_in #more_box label, body #log_in #more_box a {
+  font-size: 13px;
+}
+body #log_in #more_box a {
+  color: rgb(214, 5, 12);
+}
+body #log_in #btn_box span {
+  border-radius: 6px;
+  height: 45px;
+  font-size: 18px;
+  background-color: rgb(214, 5, 12);
+  color: white;
+  box-shadow: 0px 6px 18px -8px rgba(58, 53, 65, 0.56);
+  transition: 0.1s;
+}
+body #log_in #btn_box span:hover {
+  background-color: rgb(199, 33, 39);
+  box-shadow: 0px 8px 20px -8px rgba(20, 17, 17, 0.56);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

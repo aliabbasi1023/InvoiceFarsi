@@ -6,13 +6,13 @@
 <div class="col-12">
   <div class=" mb-5">
     <div class="col-12 pb-2 px-1 color-s border-bottom" id="header-t">
-      <h4 class="">لیست فاکتورها</h4>
+      <h4 class="text-secondary">لیست فاکتورها</h4>
     </div>
   </div>
 
-  <div class="col-12 py-2 border-bottom" id="btn-border-4">
+  <div class="col-12 py-2 border-bottom">
     <i class="h2 px-1 bi bi-search collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></i>
-    <i class="h2 px-1 bi bi-printer"></i>
+    <i class="h2  bi bi-printer"></i>
     <i class="h2 px-1 bi bi-file-x"></i>
   </div>
 
