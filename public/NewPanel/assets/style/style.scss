@@ -773,3 +773,89 @@ height: 160px !important;
 #btn-border-4{
 border-bottom: 1px solid rgb(224, 223, 223);
 }
+// *********************************login*********************************
+
+
+
+#log_in{
+    border: 2px solid $red_farsi;
+    margin: 100px auto !important;
+    @media screen and (max-width: 992px) {
+        margin: 70px auto !important;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    box-shadow: 20px 20px 10px 0px rgba(58, 53, 65, 0.1);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    #welcome_box{
+        h3{
+            font-size: 25px;
+            font-family: estedad;
+            color: rgba(58, 53, 65, 0.87);
+            @media screen and (max-width: 992px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 1024px) {
+                font-size: 20px;
+            }
+        }
+    }
+    #input_box{
+        input{
+            border-radius: 6px;
+            border: 1px solid rgb(194, 193, 193);
+            outline: none;
+            height: 45px;
+            font-size: 15px;
+        }
+        div{
+            &:nth-of-type(2){
+                #parent_eye{
+                    position: relative;
+                    
+                    #show_pass{
+                        position: absolute;
+                        top: 0px;
+                        left: 10px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #more_box{
+        label,a{
+            font-size: 13px;
+        }
+        a{
+            color: $red_farsi;
+        }
+    }
+    #btn_box{
+        span{
+            border-radius: 6px;
+            height: 45px;
+            font-size: 18px;
+            background-color: $red_farsi;
+            color: white;
+            box-shadow: 0px 6px 18px -8px rgba(58, 53, 65, 0.56);
+            transition: 0.1s;
+            &:hover{
+                background-color: rgb(199,33,39);
+                box-shadow: 0px 8px 20px -8px rgba(20, 17, 17, 0.56);
+                cursor: pointer;
+            }
+        }
+    }
+}
+}

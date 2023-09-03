@@ -10,12 +10,14 @@
 
 
     <div class="col-12 d-flex py-2">
-      <form method="POST" action="{{ route('register') }}">
+      <form method="POST" action="{{ route('register') }}" class="col-12 row">
         <div class=" col-6 p-1 ">
+          <label for="name" class="col-md-4 col-form-label text-md-end text-dark">{{ __("نام و نام خانوادگی") }}</label>
           <input type=" text" class="form-control input_1 px-2" placeholder="نام و نام خانوادگی" id="name">
         </div>
 
         <div class="col-6 p-1">
+          <label for="name" class="col-md-4 col-form-label text-md-end text-dark">شماره تماس</label>
           <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس" id="number">
         </div>
     </div>
@@ -23,21 +25,25 @@
     <div class="col-12 d-flex py-2" id="bdr">
 
       <div class="col-6 p-1 ">
-        <input type="text" class="form-control input_1 px-2" placeholder="نام کاربری" id="user_name">
+        <label for="email" class="col-md-4 col-form-label text-md-end text-dark">{{ __('آدرس ایمیل') }}</label>
+        <input type="text" class="form-control input_1 px-2" placeholder="آدرس ایمیل" id="user_name">
       </div>
 
       <div class="col-6 p-1">
-        <input type="text" class="form-control input_1 px-2" placeholder="پسورد" id="password">
+        <label for="password" class="col-md-4 col-form-label text-md-end text-dark">{{ __("رمز عبور") }}</label>
+        <input type="text" class="form-control input_1 px-2" placeholder="رمز عبور" id="password">
       </div>
 
     </div>
     <div class="col-12 d-flex py-2" id="bdr">
 
       <div class="col-6 p-1 ">
-        <input type="text" class="form-control input_1 px-2" placeholder="تکرار پسورد" id="repeat_pass">
+        <label for="password-confirm" class="col-md-4 col-form-label text-md-end text-dark">{{ __('تکرار رمز عبور') }}</label>
+        <input type="text" class="form-control input_1 px-2" placeholder="تکرار رمز عبور" id=" repeat_pass">
       </div>
 
       <div class="col-6 p-1">
+        <label for="name" class="col-md-4 col-form-label text-md-end text-dark">شرکت</label>
         <input type="text" class="form-control input_1 px-2" placeholder="شرکت" id="access_level">
       </div>
 
