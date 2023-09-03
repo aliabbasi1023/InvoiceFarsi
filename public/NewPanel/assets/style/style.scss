@@ -817,7 +817,7 @@ border-bottom: 1px solid rgb(224, 223, 223);
                 #parent_eye{
                     position: relative;
                     
-                    #show_pass{
+                    #show-pass{
                         position: absolute;
                         top: 0px;
                         left: 10px;
@@ -841,7 +841,7 @@ border-bottom: 1px solid rgb(224, 223, 223);
             color: $red_farsi;
         }
     }
-    #btn_box{
+    .btn_box{
         span{
             border-radius: 6px;
             height: 45px;
@@ -857,5 +857,4 @@ border-bottom: 1px solid rgb(224, 223, 223);
             }
         }
     }
-}
 }

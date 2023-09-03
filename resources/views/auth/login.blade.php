@@ -51,7 +51,7 @@
 
                             <div class="d-flex col-12 justify-content-center">
                                 <div class="col-8" id="parent_eye">
-                                    <span id="show_pass" onclick="_show_pass(this)" data-show="off">
+                                    <span id="show-pass" onclick="_show_pass(this)" data-show="off">
                                         <i class="bi bi-eye-fill"></i>
                                     </span>
                                     <input type="password" name="password" required autocomplete="current-password" class="col-12 px-2 inp" type="password" placeholder="رمز عبور" id="pass_login">
