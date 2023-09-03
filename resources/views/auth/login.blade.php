@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="LoginAsset/cdn-file/bootstrap.min.css.css">
     <!-- bootstrap icon -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../InvoiceFarsi/public/bootstrap2-icons.css">
     <!-- <link rel="stylesheet" href="asset/cdn-file/bootstrap2-icons.css"> -->
 
 </head>

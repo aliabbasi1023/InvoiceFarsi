@@ -10,13 +10,14 @@
 
 
     <div class="col-12 d-flex py-2">
-      <div class=" col-6 p-1 ">
-        <input type=" text" class="form-control input_1 px-2" placeholder="نام و نام خانوادگی" id="name">
-      </div>
+      <form method="POST" action="{{ route('register') }}">
+        <div class=" col-6 p-1 ">
+          <input type=" text" class="form-control input_1 px-2" placeholder="نام و نام خانوادگی" id="name">
+        </div>
 
-      <div class="col-6 p-1">
-        <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس" id="number">
-      </div>
+        <div class="col-6 p-1">
+          <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس" id="number">
+        </div>
     </div>
 
     <div class="col-12 d-flex py-2" id="bdr">
