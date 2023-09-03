@@ -7,8 +7,6 @@
       <h4 class="py-2 px-3">فرم تعریف کاربر</h4>
     </div>
 
-
-
     <div class="col-12 d-flex py-2">
       <form method="POST" action="{{ route('register') }}" class="col-12 row">
         @csrf
@@ -42,7 +40,7 @@
 
       <div class="col-6 p-1">
         <label for="password" class="col-md-4 col-form-label text-md-end text-dark">کلمه عبور</label>
-        <input type="text" class="form-control input_1 px-2" placeholder="رمز عبور" id="password" name="password" required autocomplete="new-password">
+        <input type="password" class="form-control input_1 px-2" placeholder="رمز عبور" id="password" name="password" required autocomplete="new-password">
       </div>
 
     </div>
@@ -50,7 +48,7 @@
 
       <div class="col-6 p-1 ">
         <label for="password-confirm" class="col-md-4 col-form-label text-md-end text-dark">{{ __('تکرار رمز عبور') }}</label>
-        <input type="text" class="form-control input_1 px-2" placeholder="تکرار رمز عبور" id=" repeat_pass" name="password_confirmation" required autocomplete="new-password" لهف>
+        <input type="password" class="form-control input_1 px-2" placeholder="تکرار رمز عبور" id=" repeat_pass" name="password_confirmation" required autocomplete="new-password" لهف>
       </div>
 
       <div class="col-6 p-1">
@@ -68,11 +66,7 @@
           <option value="2">....</option>
         </select>
       </div>
-
     </div>
-
-
-
 
     <div class="col-12 py-5">
       <div class="col-12  d-flex justify-content-center">
@@ -90,7 +84,6 @@
 
 <script>
   function save() {
-
     let name = document.getElementById("name")
     let number = document.getElementById("number")
     let user_name = document.getElementById("user_name")
