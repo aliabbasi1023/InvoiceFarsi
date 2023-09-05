@@ -62,7 +62,7 @@
 
 
           <div class="col-6 justify-content-end row mt-4">
-            <button type="submit" class="btn btn-secondary text-white color-s slc1 col-3" id="sub_3">ثبت</button>
+            <button type="submit" class="btn btn-secondary text-white color-s slc1 col-3" id="sub_3" onclick="save()">ثبت</button>
           </div>
 
         </div>
@@ -147,7 +147,37 @@
       </tbody>
     </table>
   </div>
+  <script>
+    function save(val) {
+      let pcal1 = document.getElementById('pcal1');
+      let pcal2 = document.getElementById('pcal2');
+      let country = document.getElementById('country');
 
+
+      let array = {
+        'date1': pcal1,
+        'date2': pcal2,
+        'code': country,
+
+      }
+
+      axios({
+        method: "post",
+        url: '{{route('
+        ListData ')}}',
+        headers: {
+          "Content-Type": "multipart/form-data",
+          Accept: 'Application/json',
+          Authorization: 'Bearer ' + token
+        },
+        data: data,
+        timeout: 10000, // 10 seconds timeout
+
+      })
+
+
+    }
+  </script>
   <script>
     var objCal1 = new AMIB.persianCalendar('pcal1');
   </script>
