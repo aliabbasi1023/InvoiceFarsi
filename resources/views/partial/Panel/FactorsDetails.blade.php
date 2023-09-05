@@ -135,7 +135,7 @@
   </table>
 
 
-  <div class="col-12  pb-4 px-1 color-b my-5" id="header-t">
+  <div class="col-12 px-1 color-b my-5" id="header-t">
     <h4 class="text-secondary">جدول اقلام فاکتور</h4>
   </div>
 </div>

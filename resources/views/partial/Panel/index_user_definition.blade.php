@@ -1,8 +1,6 @@
 @extends('layouts.NewPanel.NewPanel')
 @section('content')
 
-
-
 <div class="col-12">
   <div class=" mb-5">
     <div class="col-12 pb-2 px-1 color-s border-bottom" id="header-t">
@@ -16,32 +14,24 @@
     <i class="h2 px-1 bi bi-file-x"></i>
   </div>
 
-
-
   <div id="collapseTwo" class="accordion-collapse collapse col-12" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
     <div class="accordion-body">
-
-
 
       <div class="accordion-body col-12">
 
         <h6 class=" color-s py-3">جستجو</h6>
         <div class="row col-12">
 
-
           <div class="col-6 row px-2" id="data_picker">
             <label for="inputEmail4" class="form-label text-secondary px-1">از تاریخ</label>
             <input type="text" id="pcal1" class="pdate col-11">
           </div>
-
-
 
           <div class="col-6 row" id="data_picker">
             <label for="inputEmail4" class="form-label text-secondary px-1">تا تاریخ</label>
             <input type="text" id="pcal2" class="pdate col-11">
           </div>
         </div>
-
 
         <div class="col-12 row">
 
@@ -60,17 +50,11 @@
             </select>
           </div>
 
-
           <div class="col-6 justify-content-end row mt-4">
             <button type="submit" class="btn btn-secondary text-white color-s slc1 col-3" id="sub_3" onclick="save()">ثبت</button>
           </div>
 
         </div>
-
-
-
-
-
 
       </div>
     </div>
@@ -163,11 +147,15 @@
 
       axios({
         method: "post",
+
         url: '{{route('
         ListData ')}}',
+
         headers: {
           "Content-Type": "multipart/form-data",
+
           Accept: 'Application/json',
+
           Authorization: 'Bearer ' + token
         },
         data: data,
