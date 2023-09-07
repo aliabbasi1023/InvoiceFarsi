@@ -131,14 +131,11 @@
       </tbody>
     </table>
   </div>
-  <script>
 
-  </script>
   <script>
     var objCal1 = new AMIB.persianCalendar('pcal1');
-  </script>
-
-  <script>
     var objCal1 = new AMIB.persianCalendar('pcal2');
   </script>
+
+
   @endsection
