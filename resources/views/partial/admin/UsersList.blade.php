@@ -45,66 +45,64 @@
 </div>
 <!-- table******************************************* -->
 <div class="py-5">
-  <table class="table align-items-center" id="table-m-3">
+  <table class="table align-items-center" id="user_list">
     <thead>
       <tr>
         <th scope="col">ردیف</th>
-        <th scope="col">نام</th>
-        <th scope="col">نام خانوادگی</th>
+        <th scope="col">نام و نام خانوادگی</th>
         <th scope="col">ایمیل</th>
         <th scope="col">سطح دسترسی</th>
         <th scope="col">شماره تماس</th>
-        <th scope="col">امضاء</th>
         <th scope="col">عملیات</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td>رنجبری</td>
-        <td>ranjbari_davoud@yahoo.com</td>
-        <td>غیرفعال</td>
-        <td>0919 291 2686</td>
-        <td>......</td>
-        <td>......</td>
-        <td class="icon_box">
-          <i class="h5 px-1 bi bi-pencil-square"></i>
-          <i class="h5 px-1 bi bi-x-circle"></i>
-          <i class="h5 px-1 h4 bi bi-person-plus-fill"></i>
-        </td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>عباسی</td>
-        <td>ali.abbasi1023@gmail.com</td>
-        <td>web developer</td>
-        <td>09364916247</td>
-        <td>......</td>
-        <td>......</td>
-        <td class="icon_box">
-          <i class="h5 px-1 bi bi-pencil-square"></i>
-          <i class="h5 px-1 bi bi-x-circle"></i>
-          <i class="h5 px-1 bi bi-person-plus-fill"></i>
-        </td>
-
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>میرزاجانی</td>
-        <td>na30m9170@gmail.com</td>
-        <td>غیر فعال</td>
-        <td>09392087671</td>
-        <td>......</td>
-        <td>......</td>
-        <td class="icon_box">
-          <i class="h5 px-1 bi bi-pencil-square"></i>
-          <i class="h5 px-1 bi bi-x-circle"></i>
-          <i class="h5 px-1 h4 bi bi-person-plus-fill"></i>
-        </td>
-      </tr>
     </tbody>
   </table>
 
 </div>
+
+    <script>
+        axios({
+            method: "get",
+            url: '{{route('UserListData')}}',
+            headers: {"Content-Type": "multipart/form-data"},
+            timeout: 10000,    // 10 seconds timeout
+
+        })
+            .then(function (response) {
+                console.log(response)
+                let data = response.data
+                let table = document.querySelector('#user_list tbody')
+                let i = 1
+                let role = ''
+                data.map(function (val){
+                    if (val.user_role == '1'){
+                        role = 'ادمین'
+                    }
+                    if (data.user_role == '2'){
+                        role = 'کاربر'
+
+                    }
+                    let tr =`
+                    <tr data-id='${val.id}'>
+                        <td>${i}</td>
+                        <td>${val.name}</td>
+                        <td>${val.email}</td>
+                        <td>${role}</td>
+                        <td>${val.phone}</td>
+                        <td class="icon_box d-print-none" >
+                            <i class="h5 bi bi-trash" title="حذف آیتم" data-bs-toggle="modal" data-bs-target="#deletebox" onclick="_delete_item(this)"></i>
+                        </td>
+                    </tr>
+            `
+                    table.innerHTML += tr;
+                    i++
+                })
+            })
+            .catch(function (response) {
+
+            });
+    </script>
 
 @endsection

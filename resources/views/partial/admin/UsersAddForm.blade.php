@@ -6,13 +6,15 @@
     <div class="header-3 border-bottom mb-5">
       <h4 class="py-2 px-3">فرم تعریف کاربر</h4>
     </div>
+      <div id="alertmsg" class="col-12 my-2" style="height: 45px"></div>
+
 
     <div class="col-12 d-flex py-2">
-      <form method="POST" action="{{ route('register') }}" class="col-12 row">
-        @csrf
-        <div class=" col-6 p-1 ">
-          <label for="name" class="col-md-4 col-form-label text-md-end text-dark">{{ __("نام و نام خانوادگی") }}</label>
-          <input type=" text" class="form-control input_1 px-2" name="name" value="{{ old('name') }}" required autocomplete="name" placeholder="نام و نام خانوادگی" id="name">
+
+      <div class="col-12 row">
+        <div class=" col-6 p-1">
+          <label for="full_name" class="col-md-4 col-form-label text-md-end text-dark">نام و نام خانوادگی</label>
+          <input type="text" class="form-control input_1 px-2" name="full_name" value="{{ old('name') }}" required autocomplete="name" placeholder="نام و نام خانوادگی" id="full_name">
           @error('name')
           <span class="invalid-feedback" role="alert">
             <strong>{{ $message }}</strong>
@@ -21,16 +23,15 @@
         </div>
 
         <div class="col-6 p-1">
-          <label for="name" class="col-md-4 col-form-label text-md-end text-dark">شماره تماس</label>
-          <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس" id="number">
+          <label for="phone" class="col-md-4 col-form-label text-md-end text-dark">شماره تماس</label>
+          <input type="text" class="form-control input_1 px-2" placeholder="شماره تماس" id="phone">
         </div>
-    </div>
 
     <div class="col-12 d-flex py-2" id="bdr">
 
-      <div class="col-6 p-1 ">
+      <div class="col-6 p-1">
         <label for="email" class="col-md-4 col-form-label text-md-end text-dark">ایمیل (نام کاربری)</label>
-        <input type="text" class="form-control input_1 px-2" placeholder="آدرس ایمیل" id="user_name" name="email" value="{{ old('email') }}" required autocomplete="email">
+        <input type="text" class="form-control input_1 px-2" placeholder="آدرس ایمیل" id="email" name="email" value="{{ old('email') }}" required autocomplete="email">
         @error('email')
         <span class="invalid-feedback" role="alert">
           <strong>{{ $message }}</strong>
@@ -46,55 +47,89 @@
     </div>
     <div class="col-12 d-flex py-2" id="bdr">
 
-      <div class="col-6 p-1 ">
-        <label for="password-confirm" class="col-md-4 col-form-label text-md-end text-dark">{{ __('تکرار رمز عبور') }}</label>
-        <input type="password" class="form-control input_1 px-2" placeholder="تکرار رمز عبور" id=" repeat_pass" name="password_confirmation" required autocomplete="new-password" لهف>
+      <div class="col-6 p-1">
+        <label for="repeat_pass" class="col-md-4 col-form-label text-md-end text-dark">تکرار رمز عبور</label>
+        <input type="password" class="form-control input_1 px-2" placeholder="تکرار رمز عبور" id="repeat_pass" name="repeat_pass" required autocomplete="new-password">
       </div>
 
       <div class="col-6 p-1">
-        <label for="name" class="col-md-4 col-form-label text-md-end text-dark">شرکت</label>
-        <input type="text" class="form-control input_1 px-2" placeholder="شرکت" id="access_level">
+          <label for="user_role" class="col-md-4 col-form-label text-md-end text-dark">نقش کاربر</label>
+          <select class="form-select text-secondary input_1 px-4" aria-label="Default select example" id="user_role">
+              <option selected disabled>انتخاب</option>
+              <option value="1">ادمین</option>
+              <option value="2">کاربر معمولی</option>
+          </select>
       </div>
 
     </div>
 
     <div class="col-12 d-flex py-2">
       <div class="col-6 p-1">
-        <select class="form-select text-secondary input_1 px-4" aria-label="Default select example">
-          <option selected disabled>سطح دسترسی</option>
-          <option value="1">.....</option>
-          <option value="2">....</option>
-        </select>
+          <label for="company" class="col-md-4 col-form-label text-md-end text-dark">شرکت</label>
+          <input type="text" class="form-control input_1 px-2" placeholder="شرکت" id="company">
       </div>
     </div>
 
     <div class="col-12 py-5">
       <div class="col-12  d-flex justify-content-center">
         <div class="p-1 ">
-          <button type="submit" class="btn btn-secondary mb-3 submit-2">ثبت</button>
+          <button type="submit" class="btn btn-secondary mb-3 submit-2" onclick="save()">ثبت</button>
           <!-- <button  type="submit" class="btn btn-secondary bg-secondary ">ثبت</button> -->
         </div>
       </div>
     </div>
 
-    </form>
+    </div>
   </div>
 </div>
 </div>
 
 <script>
   function save() {
-    let name = document.getElementById("name")
-    let number = document.getElementById("number")
-    let user_name = document.getElementById("user_name")
-    let password = document.getElementById("password")
-    let repeat_pass = document.getElementById("repeat_pass")
-    let company = document.getElementById("company")
-    let access_level = document.getElementById("access_level")
+    let full_name = document.getElementById("full_name").value
+    let phone = document.getElementById("phone").value
+    let email = document.getElementById("email").value
+    let password = document.getElementById("password").value
+    let repeat_pass = document.getElementById("repeat_pass").value
+    let company = document.getElementById("company").value
+    let user_role = document.getElementById("user_role").value
 
-    let array = {
-
+    const data = {
+        'name':full_name,
+        'phone':phone,
+        'email':email,
+        'password':password,
+        'repeat_pass':repeat_pass,
+        'company':company,
+        'user_role':user_role,
     }
+      // console.log(data.user_role)
+
+      axios({
+          method: "post",
+          url: '{{route('UserAdd')}}',
+          headers: {"Content-Type": "multipart/form-data"},
+          data: data,
+          timeout: 10000,    // 10 seconds timeout
+
+      })
+          .then(function (response) {
+              console.log(response)
+              if (response.data == 'error_pass'){
+                  document.getElementById('alertmsg').innerHTML ='رمز عبور و تکرار آن یکسان نیست'
+              }
+              if (response.data == 'error'){
+                  document.getElementById('alertmsg').innerHTML ='کاربر جدید با موفقیت ثبت شد'
+              }
+              if (response.data == 'ok'){
+                  document.getElementById('alertmsg').innerHTML ='خطا در انجام عملیات'
+              }
+
+          })
+          .catch(function (response) {
+
+          });
+
   }
 </script>
 @endsection
